@@ -76,6 +76,7 @@ const Home = () => {
                                 <MiniCard 
                                     key={key}
                                     user={user}
+                                    toggleFollow={userToToggle => setUserToToggle(userToToggle)}
                                 />
                             )
                         })
