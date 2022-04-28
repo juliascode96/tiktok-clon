@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiFillMessage, AiFillHeart, AiFillPlusCircle } from "react-icons/ai";
 
 const Card = ({ user, toggleFollow }) => {
 
@@ -29,11 +30,11 @@ const Card = ({ user, toggleFollow }) => {
           <source src={user.video} type="video/mp4" />
         </video>
         <div className="section socials">
-           <i class="far fa-heart"></i>
+           <AiFillHeart />
           <div className="social-tag">{user.likes}</div>
-          <i class="far fa-comment-dots"></i>
+          <AiFillMessage />
           <div className="social-tag">{user.comments}</div>
-          <i class="far fa-share-square"></i>
+          <AiFillPlusCircle />
         </div>
     </div>
   )

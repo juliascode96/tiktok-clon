@@ -59,7 +59,7 @@ exports.handler = async function (event, context, callback) {
             username: "terry",
             avatar: "https://avatars.dicebear.com/api/avataaars/terry.svg",
             is_followed: false,
-            video: "https://i.imgur.com/IigY4Hm.mp4",
+            video: "https://i.imgur.com/Kzvbeup.mp4",
             caption: "Relleno relleno relleno",
             likes: 8,
             comments: 1,
